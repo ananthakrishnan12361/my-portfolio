@@ -109,6 +109,12 @@ export const skillCategories: { category: string; skills: Skill[] }[] = [
   {
     category: "Cloud",
     skills: [
+      { name: "Google Cloud Platform", slug: "googlecloud", level: "Advanced", years: "2+" },
+      { name: "GCP Cloud Storage", slug: "googlecloudstorage", level: "Intermediate", years: "1+" },
+      { name: "GCP BigQuery", slug: "googlebigquery", level: "Intermediate", years: "1+" },
+      { name: "GCP VPC Networking", slug: "googlecloud", level: "Intermediate", years: "1+" },
+      { name: "GCP IAM & Security", slug: "googlecloud", level: "Intermediate", years: "1+" },
+      { name: "GCP Dataflow", slug: "googledataflow", level: "Intermediate", years: "1+" },
       { name: "AWS IAM", slug: "amazonwebservices", level: "Intermediate", years: "1+" },
       { name: "AWS EC2", slug: "amazonwebservices", level: "Intermediate", years: "1+" },
       { name: "AWS S3", slug: "amazonwebservices", level: "Intermediate", years: "1+" },

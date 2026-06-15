@@ -120,7 +120,7 @@ CSS variables for light/dark themes, `.glass`, `.gradient-text`, `.animated-grad
 Single source of truth for portfolio content:
 
 - `stats`, `specializations`, `navLinks`
-- `skillCategories` — 50+ skills with Simple Icons slugs and experience levels
+- `skillCategories` — 55+ skills with Simple Icons slugs and experience levels (Cloud includes Google Cloud Platform, GCP Storage, BigQuery, Networking, IAM, Dataflow)
 - `experiences` — 4 job entries with expandable details
 - `projects` — 5 featured projects
 - `certificationProviders` — 7 providers with modal certification lists
