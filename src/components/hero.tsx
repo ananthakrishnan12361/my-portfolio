@@ -1,11 +1,16 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import { stats } from "@/data/portfolio";
 import { Button } from "@/components/ui/button";
-import { HeroScene } from "@/components/hero-scene";
+
+const HeroScene = dynamic(
+  () => import("@/components/hero-scene").then((m) => m.HeroScene),
+  { ssr: false }
+);
 
 const socialLinks = [
   { href: "https://linkedin.com", label: "LinkedIn", icon: Linkedin },
