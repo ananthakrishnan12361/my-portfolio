@@ -125,6 +125,20 @@ export const skillCategories: { category: string; skills: Skill[] }[] = [
   {
     category: "Messaging",
     skills: [
+      { name: "Socket.io", slug: "socketdotio", level: "Advanced", years: "2+" },
+      { name: "Firebase", slug: "firebase", level: "Advanced", years: "2+" },
+      {
+        name: "Firebase Realtime DB",
+        slug: "firebase",
+        level: "Advanced",
+        years: "2+",
+      },
+      {
+        name: "FCM Notifications",
+        slug: "firebase",
+        level: "Advanced",
+        years: "2+",
+      },
       { name: "Kafka", slug: "apachekafka", level: "Intermediate", years: "1+" },
       { name: "RabbitMQ", slug: "rabbitmq", level: "Intermediate", years: "1+" },
     ],
@@ -219,7 +233,16 @@ export const experiences: Experience[] = [
       "Assisted in web application development",
       "Learned industry best practices and agile workflows",
     ],
-    technologies: ["JavaScript", "HTML", "CSS", "MySQL"],
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "MySQL",
+    ],
   },
 ];
 

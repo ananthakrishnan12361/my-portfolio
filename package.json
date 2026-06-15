@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "clean": "node -e \"require('fs').rmSync('.next',{recursive:true,force:true})\""
+    "preclean": "node scripts/kill-stale.js",
+    "clean": "node scripts/clean.js"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.6",
