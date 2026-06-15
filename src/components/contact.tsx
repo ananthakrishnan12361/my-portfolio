@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Send, CheckCircle, Loader2 } from "lucide-react";
 import { SectionHeading, FadeIn } from "@/components/section-heading";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 
 export function Contact() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">(

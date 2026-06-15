@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ExternalLink, ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { projects } from "@/data/portfolio";
 import { SectionHeading, FadeIn } from "@/components/section-heading";
 import { Badge } from "@/components/ui/badge";
