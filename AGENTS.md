@@ -21,6 +21,7 @@ Recruiter-focused portfolio for **Anantha Krishnan S** (Senior Software Engineer
 
 ```bash
 npm run dev      # Start dev server (http://localhost:3000)
+npm run dev:clean # Kill stale cache then start dev (use after EPERM errors)
 npm run build    # Production build
 npm run start    # Serve production build
 npm run lint     # ESLint
@@ -35,6 +36,20 @@ Corrupted `.next` cache causes `ENOENT: routes-manifest.json` and vendor-chunk e
 npm run clean
 npm run dev
 ```
+
+### Fixing EPERM: operation not permitted, open '.next\trace'
+
+On Windows, a **stale Node process** (previous `npm run dev`, Cursor terminal, or background agent) locks files in `.next`.
+
+1. Stop all dev servers (`Ctrl+C` in every terminal running Next.js).
+2. Kill leftover Node processes:
+   ```powershell
+   taskkill /F /IM node.exe
+   ```
+3. Delete cache and restart:
+   ```bash
+   npm run dev:clean
+   ```
 
 Or: stop all Node processes, delete `.next`, then `npm run dev`.
 
