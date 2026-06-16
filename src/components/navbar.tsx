@@ -78,7 +78,7 @@ export function Navbar() {
             </Button>
           )}
           <Link href="#contact" className="hidden sm:block">
-            <Button size="sm">Hire Me</Button>
+            <Button size="sm">Contact Me</Button>
           </Link>
           <Button
             variant="ghost"
@@ -115,7 +115,7 @@ export function Navbar() {
               ))}
               <li className="pt-2">
                 <Link href="#contact" onClick={() => setMobileOpen(false)}>
-                  <Button className="w-full">Hire Me</Button>
+                  <Button className="w-full">Contact Me</Button>
                 </Link>
               </li>
             </ul>
