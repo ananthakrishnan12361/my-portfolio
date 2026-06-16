@@ -124,6 +124,12 @@ CTA:
 - View Projects
 - Contact Me
 
+Navbar CTA:
+- Contact Me (links to Contact section)
+
+Availability Badge:
+- Disabled for now (do not show "Available for opportunities" pill)
+
 Social Links:
 - LinkedIn
 - GitHub
@@ -159,6 +165,7 @@ Every skill MUST display:
 - Name
 - Experience indicator
 - Hover animation
+- Dark-mode visibility: near-black brand icons (Next.js, Angular, Express, Socket.io, Kafka, GitHub Copilot, Claude, WebRTC, etc.) must render on a light pill background in dark mode
 
 Frontend:
 - React.js
@@ -193,6 +200,12 @@ Databases:
 - Redis
 
 Cloud:
+- Google Cloud Platform
+- GCP Cloud Storage
+- GCP BigQuery
+- GCP VPC Networking
+- GCP IAM & Security
+- GCP Dataflow
 - AWS IAM
 - AWS EC2
 - AWS S3
@@ -200,6 +213,10 @@ Cloud:
 - AWS Amplify
 
 Messaging:
+- Socket.io
+- Firebase
+- Firebase Realtime DB (chat)
+- FCM Push Notifications
 - Kafka
 - RabbitMQ
 
@@ -266,6 +283,20 @@ Duration: Dec 2021 – Aug 2023
 ## Junior Software Developer
 Company: Softzane Solutions
 Duration: Aug 2021 – Nov 2021
+
+Responsibilities:
+- Assisted in web application development
+- Learned industry best practices and agile workflows
+
+Technologies:
+- JavaScript
+- React.js
+- Node.js
+- Express
+- MongoDB
+- HTML
+- CSS
+- MySQL
 
 Experience UI:
 - Vertical timeline
@@ -530,3 +561,65 @@ Use Framer Motion across sections.
 Create a recruiter-focused experience.
 
 The final result should feel like a premium portfolio of a Senior Software Engineer working in modern Full Stack, Cloud, AI, Web3, and AR/VR technologies.
+
+---
+
+# 19. IMPLEMENTATION STATUS
+
+## Built (Next.js 15 + TypeScript + Tailwind CSS 4)
+
+All 11 website sections are implemented and responsive. Dark mode is default with light mode toggle.
+
+| Section | Status |
+|---------|--------|
+| Hero (3D scene, stats, CTAs) | Done |
+| About | Done |
+| Technical Expertise | Done |
+| Skills & Technologies | Done |
+| Experience Timeline | Done |
+| Featured Projects | Done |
+| Certifications (modal) | Done |
+| Education | Done |
+| Achievements | Done |
+| Contact (form UI) | Done — backend integration pending |
+| Footer | Done |
+| SEO + Person schema | Done |
+
+## UI Decisions (Post-Build)
+
+- **Availability badge** ("Available for opportunities") — hidden/disabled for now
+- **Navbar CTA** — "Contact Me" (not "Hire Me")
+- **Skill icons in dark mode** — light pill background for dark-colored brand logos
+
+## Content Updates Applied
+
+### Cloud Skills (added)
+- Google Cloud Platform, GCP Cloud Storage, GCP BigQuery, GCP VPC Networking, GCP IAM & Security, GCP Dataflow
+
+### Messaging & Realtime Skills (added)
+- Socket.io
+- Firebase
+- Firebase Realtime DB (used for chat)
+- FCM Push Notifications
+
+### Experience — Softzane Solutions (updated)
+Technology badges: JavaScript, React.js, Node.js, Express, MongoDB, HTML, CSS, MySQL
+
+## Dev Tooling
+
+```bash
+npm run dev        # Start dev server
+npm run dev:clean  # Stop stale processes, clean .next cache, start dev (Windows)
+npm run build      # Production build
+```
+
+Windows note: use `npm run dev:clean` if `.next\trace` EPERM or `routes-manifest.json` errors occur.
+
+## Pending Before Production
+
+- [ ] Replace placeholder social links and email
+- [ ] Replace `public/resume.pdf` with real resume
+- [ ] Wire contact form (EmailJS or Resend)
+- [ ] Add certification credential IDs and verify URLs
+- [ ] Deploy to Vercel
+- [ ] Re-enable availability badge when actively job seeking
