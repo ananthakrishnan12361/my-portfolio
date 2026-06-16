@@ -61,6 +61,7 @@ npm run dev:clean
 ```
 portfolio/
 ├── AGENTS.md
+├── README.md
 ├── Enterprise_Portfolio_PRD_Anantha_Krishnan_S.md
 ├── package.json
 ├── tsconfig.json
