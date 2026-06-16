@@ -31,7 +31,7 @@
   --secondary: #f4f4f5;
   --secondary-foreground: #18181b;
   --muted: #f4f4f5;
-  --muted-foreground: #71717a;
+  --muted-foreground: #5c5c66;
   --accent: #7928ca;
   --accent-foreground: #ffffff;
   --border: rgba(0, 0, 0, 0.08);
@@ -51,7 +51,7 @@
   --secondary: rgba(255, 255, 255, 0.05);
   --secondary-foreground: #ededed;
   --muted: rgba(255, 255, 255, 0.05);
-  --muted-foreground: #a1a1aa;
+  --muted-foreground: #b8b8c0;
   --accent: #7928ca;
   --accent-foreground: #ffffff;
   --border: rgba(255, 255, 255, 0.08);
@@ -67,6 +67,44 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus,
+.sr-only:active {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
 }
 
 body {

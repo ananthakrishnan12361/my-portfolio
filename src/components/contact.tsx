@@ -42,7 +42,11 @@ export function Contact() {
 
         <FadeIn>
           <div className="mx-auto max-w-xl">
-            <form onSubmit={handleSubmit} className="glass rounded-3xl p-6 sm:p-8 space-y-5">
+            <form
+              onSubmit={handleSubmit}
+              className="glass rounded-3xl p-6 sm:p-8 space-y-5"
+              aria-label="Contact form"
+            >
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-2">
@@ -126,28 +130,30 @@ export function Contact() {
                 )}
               </Button>
 
-              <AnimatePresence>
-                {status === "success" && (
-                  <motion.p
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0 }}
-                    className="text-center text-sm text-emerald-500"
-                  >
-                    Thank you! I&apos;ll get back to you soon.
-                  </motion.p>
-                )}
-                {status === "error" && (
-                  <motion.p
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0 }}
-                    className="text-center text-sm text-red-500"
-                  >
-                    Something went wrong. Please try again.
-                  </motion.p>
-                )}
-              </AnimatePresence>
+              <div aria-live="polite" aria-atomic="true" className="min-h-5">
+                <AnimatePresence>
+                  {status === "success" && (
+                    <motion.p
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0 }}
+                      className="text-center text-sm text-emerald-500"
+                    >
+                      Thank you! I&apos;ll get back to you soon.
+                    </motion.p>
+                  )}
+                  {status === "error" && (
+                    <motion.p
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0 }}
+                      className="text-center text-sm text-red-500"
+                    >
+                      Something went wrong. Please try again.
+                    </motion.p>
+                  )}
+                </AnimatePresence>
+              </div>
             </form>
           </div>
         </FadeIn>

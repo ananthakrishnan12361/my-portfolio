@@ -119,6 +119,7 @@ portfolio/
 | Navbar UI | Renamed "Hire Me" button to **Contact Me** (links to `#contact`) |
 | Skill icons | Dark-mode fix: near-black Simple Icons get `dark:bg-white/95` pill (Next.js, Angular, Express, Socket.io, Kafka, GitHub Copilot, Claude, WebRTC, etc.) |
 | Dev tooling | Added `scripts/kill-stale.js`, `scripts/clean.js`, `npm run dev:clean`, `preclean` hook |
+| Lighthouse | Removed 5MB `simple-icons` runtime import; lazy sections; deferred 3D; SEO files; a11y fixes — First Load JS ~214 kB (was ~2.3 MB) |
 
 ## File Reference
 
@@ -195,7 +196,7 @@ Minimal placeholder PDF for the Download Resume button. Replace with the real re
 2. **New section** → add component in `src/components/`, import in `src/app/page.tsx`, add nav link in `portfolio.ts` `navLinks`.
 3. **Client components** — use `"use client"` when using hooks, Framer Motion, Three.js, or browser APIs.
 4. **Three.js** — always dynamic-import with `{ ssr: false }` (see `hero.tsx`).
-5. **Icons** — use Simple Icons slugs in `portfolio.ts`; verify at [simpleicons.org](https://simpleicons.org). Dark hex colors (`#000000`, `#333333`, etc.) need the dark-mode pill in `skill-icon.tsx` — do not remove.
+5. **Icons** — skill logos live in `src/data/skill-icons.ts` (not the `simple-icons` package at runtime). To add a slug: update `scripts/generate-icons.js`, run `node scripts/generate-icons.js`. Dark hex colors need the dark-mode pill in `skill-icon.tsx`.
 6. **Styling** — use `cn()` from `@/lib/utils`, design tokens from `globals.css`, `glass` and `gradient-text` classes.
 7. **Responsive** — mobile-first; test `sm:`, `md:`, `lg:` breakpoints; navbar has mobile drawer.
 8. **Do not** commit `.env` files or secrets.

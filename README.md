@@ -238,14 +238,32 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=
 
 ## Performance Targets
 
-| Metric | Target |
-|--------|--------|
-| Lighthouse Performance | 95+ |
-| Lighthouse Accessibility | 95+ |
-| Lighthouse SEO | 100 |
-| Core Web Vitals | Green |
+| Metric | Target | How to measure |
+|--------|--------|----------------|
+| Lighthouse Performance | 95+ | Production build only (see below) |
+| Lighthouse Accessibility | 95+ | |
+| Lighthouse SEO | 100 | |
+| Core Web Vitals | Green | |
 
-The Three.js hero is dynamically imported (no SSR) to keep initial load optimized.
+### Optimizations applied
+
+- Removed full `simple-icons` bundle (~5 MB) — icons use lightweight `src/data/skill-icons.ts`
+- Lazy-loaded below-fold sections via `next/dynamic`
+- Deferred Three.js hero until idle (skipped on mobile & reduced-motion)
+- Reduced 3D scene complexity (fewer stars, lower polygon count)
+- SEO: `metadataBase`, canonical URL, `robots.txt`, `sitemap.xml`, `manifest`, JSON-LD
+- Accessibility: skip link, `aria-live` on contact form, improved contrast, `prefers-reduced-motion`
+
+### Run Lighthouse correctly
+
+Dev mode (`npm run dev`) scores poorly. Always audit the **production** build:
+
+```bash
+npm run build
+npm run start
+```
+
+Then run Lighthouse in Chrome DevTools on `http://localhost:3000` (Incognito, mobile or desktop).
 
 ---
 

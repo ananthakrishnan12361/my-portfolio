@@ -37,6 +37,7 @@ export function Skills() {
                     ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
                     : "glass text-muted-foreground hover:text-foreground"
                 )}
+                aria-pressed={activeCategory === i}
               >
                 {cat.category}
               </button>

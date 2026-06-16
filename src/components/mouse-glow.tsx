@@ -7,13 +7,17 @@ export function MouseGlow() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const coarse = window.matchMedia("(pointer: coarse)").matches;
+    if (reducedMotion || coarse) return;
+
     const handleMove = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY });
       setVisible(true);
     };
     const handleLeave = () => setVisible(false);
 
-    window.addEventListener("mousemove", handleMove);
+    window.addEventListener("mousemove", handleMove, { passive: true });
     document.addEventListener("mouseleave", handleLeave);
     return () => {
       window.removeEventListener("mousemove", handleMove);
@@ -25,7 +29,7 @@ export function MouseGlow() {
 
   return (
     <div
-      className="pointer-events-none fixed inset-0 z-30 hidden md:block"
+      className="pointer-events-none fixed inset-0 z-30 hidden lg:block"
       aria-hidden="true"
     >
       <div

@@ -1,6 +1,5 @@
-"use client";
-
-import * as simpleIcons from "simple-icons";
+import type { IconData } from "@/data/skill-icons";
+import { skillIconMap } from "@/data/skill-icons";
 import { cn } from "@/lib/utils";
 
 interface SkillIconProps {
@@ -10,9 +9,8 @@ interface SkillIconProps {
   size?: number;
 }
 
-function getIcon(slug: string) {
-  const key = `si${slug.charAt(0).toUpperCase()}${slug.slice(1)}` as keyof typeof simpleIcons;
-  return simpleIcons[key] as { path: string; hex: string; title: string } | undefined;
+function getIcon(slug: string): IconData | undefined {
+  return skillIconMap[slug];
 }
 
 function isColorDark(hex: string): boolean {
@@ -91,20 +89,20 @@ export function ProviderIcon({
           className
         )}
         style={{ width: size, height: size, fontSize: size * 0.4 }}
+        aria-label={name}
       >
         {name.charAt(0)}
       </div>
     );
   }
 
-  const needsDarkModeInvert = isColorDark(
-    color ? color.replace("#", "") : icon.hex
-  );
+  const fillHex = color ? color.replace("#", "") : icon.hex;
+  const needsDarkModeInvert = isColorDark(fillHex);
 
   return (
     <div
       className={cn(
-        "flex items-center justify-center rounded-xl",
+        "flex items-center justify-center",
         needsDarkModeInvert && "rounded-xl dark:bg-white/95 dark:p-1.5"
       )}
     >
