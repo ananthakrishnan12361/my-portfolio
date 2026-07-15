@@ -216,26 +216,47 @@ Before going live, update these items:
 
 ## Deployment
 
-### Vercel (Recommended)
+### GitHub Pages (configured)
 
-1. Push the repo to GitHub
-2. Import the project at [vercel.com](https://vercel.com)
-3. Framework preset: **Next.js** (auto-detected)
-4. Deploy
+This repo deploys automatically to GitHub Pages via GitHub Actions.
+
+| Item | Value |
+|------|-------|
+| **Live URL** | https://ananthakrishnan12361.github.io/my-portfolio/ |
+| **Workflow** | `.github/workflows/deploy-github-pages.yml` |
+| **Trigger** | Push to `master` |
+
+One-time setup in GitHub (if Pages is not enabled yet):
+
+1. Open **Settings → Pages**
+2. Under **Build and deployment → Source**, choose **GitHub Actions**
+
+Local production build for Pages:
 
 ```bash
-npm run build   # Verify build passes locally first
+# Windows PowerShell
+$env:GITHUB_PAGES="true"; npm run build
+```
+
+Static files are written to the `out/` folder.
+
+### Vercel (optional alternative)
+
+For full Next.js hosting without static export:
+
+1. Import the repo at [vercel.com](https://vercel.com)
+2. Framework preset: **Next.js**
+3. Deploy (set `GITHUB_PAGES` unset / not `true`)
+
+```bash
+npm run build   # Without GITHUB_PAGES=true for Vercel
 ```
 
 ### Environment Variables
 
-No environment variables are required for the current build. Add these when wiring the contact form:
-
 ```env
-# Example — EmailJS
-NEXT_PUBLIC_EMAILJS_SERVICE_ID=
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=
+# Optional — override canonical site URL
+NEXT_PUBLIC_SITE_URL=https://ananthakrishnan12361.github.io/my-portfolio
 ```
 
 ---
