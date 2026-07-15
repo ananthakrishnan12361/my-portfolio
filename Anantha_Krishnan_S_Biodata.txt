@@ -1,0 +1,97 @@
+================================================================================
+                              B I O D A T A
+================================================================================
+
+PERSONAL DETAILS
+--------------------------------------------------------------------------------
+Name              : Anantha Krishnan S
+Date of Birth     : [DD / MM / YYYY]
+Age               : [Years]
+Height            : [cm / feet]
+Weight            : [kg]
+Blood Group       : [Blood Group]
+Marital Status    : [Single / Unmarried]
+Nationality       : Indian
+Religion            : [Religion]
+Mother Tongue     : [Language]
+Current Location  : Kollam, Kerala / Coimbatore, Tamil Nadu, India
+
+Contact           : +91 9447208636
+Email             : ananthakrishnans2000@gmail.com
+
+
+FAMILY DETAILS
+--------------------------------------------------------------------------------
+Father's Name     : [Father's Name]
+Father's Occupation : [Occupation]
+
+Mother's Name     : [Mother's Name]
+Mother's Occupation : [Occupation]
+
+Siblings          : [Number and brief details, if any]
+
+Family Type       : [Nuclear / Joint]
+Family Values     : [Traditional / Moderate / Liberal]
+
+
+EDUCATIONAL QUALIFICATIONS
+--------------------------------------------------------------------------------
+MCA (Master of Computer Applications)
+    Amrita Vishwa Vidyapeetham | CGPA: 8.67
+
+BSc Computer Science
+    University Institute of Technology, Ittiva | 73%
+
+Higher Secondary  : G.H.S.S Thevannoor
+SSLC              : JHS Ayoor
+
+
+PROFESSIONAL BACKGROUND
+--------------------------------------------------------------------------------
+Currently working as a Senior Software Engineer at JuzGoDigital. I have been
+part of the IT industry for over four years and have grown through different
+roles with steady learning and responsibility at each stage.
+
+I am presently exploring new opportunities — including roles beyond hands-on
+coding — where I can contribute through leadership, coordination, and
+people-focused work alongside my professional experience.
+
+
+ABOUT ME
+--------------------------------------------------------------------------------
+I see myself as a team player who values trust, respect, and open communication.
+I listen carefully, try to understand different viewpoints, and work toward
+solutions that work for everyone involved.
+
+I have experience guiding and supporting team members, helping them stay aligned
+and motivated. I am comfortable taking responsibility when needed and equally
+comfortable collaborating as part of a group. Colleagues often describe me as
+approachable, dependable, and calm under pressure.
+
+I believe in continuous learning — not only in work, but in life. I carry a
+positive outlook, adapt well to change, and treat people with fairness and
+patience.
+
+Outside of work, I enjoy [hobbies / interests — e.g. reading, music, travel,
+spending time with family]. I value family bonds and look for the same warmth
+and understanding in the people around me.
+
+
+WHAT I AM LOOKING FOR
+--------------------------------------------------------------------------------
+- A supportive and understanding life partner / professional environment
+- Openness to growth in roles that involve leadership, management, or
+  coordination — not limited to coding alone
+- Mutual respect, honesty, and shared values
+
+
+CONTACT
+--------------------------------------------------------------------------------
+Anantha Krishnan S
+Phone : +91 9447208636
+Email : ananthakrishnans2000@gmail.com
+Location : Kollam, Kerala / Coimbatore, Tamil Nadu, India
+
+================================================================================
+Note: Please fill in bracketed [ ] fields with your personal details before use.
+================================================================================

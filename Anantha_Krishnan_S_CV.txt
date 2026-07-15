@@ -1,0 +1,171 @@
+ANANTHA KRISHNAN S
+Senior Software Engineer | Full Stack Developer | MERN Stack Specialist
+Location: Coimbatore, Tamil Nadu, India | Email: ananthakrishnans2000@gmail.com | Phone: +91 9447208636
+LinkedIn: linkedin.com/in/anantha-krishnan-s-92a477219 | GitHub: github.com/ananthakrishnan12361
+Portfolio: https://ananthakrishnan12361.github.io/my-portfolio/
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+Results-driven Senior Software Engineer with 4+ years of experience designing and
+delivering scalable enterprise web applications, healthcare platforms, Web3
+solutions, and real-time communication systems. Expert in MERN stack, Python,
+Django, React ecosystem, NestJS, Kubernetes, microservices, cloud technologies, and
+AI-assisted development. Proven ability to lead architecture decisions, mentor
+developers, and build production-grade full stack products from concept to
+deployment. MCA graduate with 15+ industry certifications across full stack
+development, cloud, and networking.
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+Languages: JavaScript, TypeScript, Python, HTML5, CSS3, SQL
+Frontend: React.js, Next.js, Angular, React Native, Redux, Bootstrap, Material UI,
+          Ant Design, Vite, Flutter
+Backend: Node.js, Express.js, NestJS, Django, REST APIs, GraphQL, Microservices
+Databases: MongoDB, MySQL, PostgreSQL, MSSQL, Redis
+Cloud: Google Cloud Platform, GCP BigQuery, GCP Cloud Storage, AWS EC2, AWS S3,
+       AWS IAM, AWS Amplify, Docker, Kubernetes, CI/CD, Linux
+Realtime & Messaging: Socket.io, Firebase, Firebase Realtime Database, FCM Push
+                      Notifications, Kafka, RabbitMQ, WebRTC, Twilio
+Blockchain: Ethereum, Web3.js, Smart Contract Integration
+AI Tools: GitHub Copilot, ChatGPT, Claude, Cursor
+Tools: Git, GitHub, Bitbucket, Jira, Postman, VS Code
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+SENIOR SOFTWARE ENGINEER
+JuzGoDigital | Jul 2024 – Present
+- Lead full stack development across enterprise platforms using React, NestJS,
+  Node.js, PostgreSQL, AWS, and Docker
+- Drive architecture decisions and technical direction for scalable, maintainable
+  software systems
+- Mentor junior and mid-level developers on coding standards, design patterns, and
+  best practices
+- Design and implement microservices-based solutions for high-availability
+  enterprise applications
+- Adopt AI-assisted development workflows to improve delivery speed and code quality
+
+SOFTWARE ENGINEER
+JuzGoDigital | Sep 2023 – Jun 2024
+- Developed healthcare platform modules including patient workflows and clinical
+  feature sets using Angular and React
+- Integrated Web3 functionality and blockchain-based features into enterprise
+  applications using Web3.js and Node.js
+- Built and maintained enterprise software solutions with MongoDB and RESTful APIs
+- Collaborated with cross-functional teams to deliver features on schedule in agile
+  sprints
+
+SOFTWARE DEVELOPER
+VIPAR | Dec 2021 – Aug 2023
+- Developed and maintained production web applications using React, Node.js, and
+  JavaScript frameworks
+- Collaborated on end-to-end feature design, implementation, and testing across the
+  full software development lifecycle
+- Resolved bugs, improved application performance, and optimized existing codebases
+  for scalability and maintainability
+- Worked with MySQL databases and REST APIs to support data-driven application
+  features
+
+JUNIOR SOFTWARE DEVELOPER
+Softzane Solutions | Aug 2021 – Nov 2021
+- Contributed to full stack web application development using React.js, Node.js,
+  Express.js, MongoDB, and MySQL
+- Implemented responsive user interfaces with HTML, CSS, and JavaScript
+- Participated in agile ceremonies and followed industry best practices for version
+  control and code review
+
+================================================================================
+SELECTED PROJECTS
+================================================================================
+Enterprise Healthcare Web Application | Frontend Developer
+Technologies: Angular, JavaScript, HTML5, CSS3
+- Built responsive healthcare UI modules for appointment booking and patient management
+- Delivered clinical workflow features integrated with REST APIs
+
+Web3 Decentralized Finance Platform | Frontend Developer
+Technologies: React.js, Redux, JavaScript, Web3.js, Ethereum
+- Developed trading and portfolio interfaces with smart contract integration
+- Implemented Web3 wallet connectivity and Redux state management
+
+Talent Recruitment Platform | Full Stack Developer
+Technologies: React.js, Node.js, Express.js, MySQL
+- Built employer-talent matching and professional profile management features
+- Designed REST APIs and MySQL schemas for search and accounts
+
+Real-Time Collaborative Presentation Platform | React Frontend Developer
+Technologies: React.js, Redux, Ant Design
+- Built real-time collaborative editing with drag-and-drop slide management
+- Delivered presentation creation and sharing workflows for distributed teams
+
+AR/VR Real-Time Video Collaboration Platform | Lead Full Stack Developer
+Technologies: React.js, Vite, NestJS, PostgreSQL, Microservices, Twilio, WebRTC
+- Led development of video calling with AR/VR annotations and collaboration
+- Architected NestJS microservices and optimized WebRTC for low latency
+
+Social Media Platform | Full Stack Developer
+Technologies: React.js, Node.js, Express.js, MongoDB, AWS EC2, Load Balancer, S3, Docker
+- Built scalable social networking features for profiles, feeds, and media sharing
+- Deployed containerized services on AWS EC2 with load balancing and S3 media storage
+- Developed Express REST APIs and MongoDB models for users, posts, and engagement data
+
+Association Community App | Full Stack / Mobile Developer
+Technologies: React Native, Node.js, Express.js, MySQL
+- Created a mobile app for associations to publish posts and share member achievements
+- Enabled tracking of association programs and activities for organizers and members
+- Implemented Express APIs and MySQL schemas for members, posts, and program progress
+
+Workplace Safety SaaS Platform | Backend / Full Stack Developer
+Technologies: Node.js, Express.js, MongoDB, Python
+- Delivered a B2B SaaS platform that automates workplace safety data collection
+- Used Python for analysis pipelines supporting compliance reporting and insights
+- Designed MongoDB collections and Express APIs for inspections and safety workflows
+
+E-Commerce Microservices Platform | Full Stack Developer
+Technologies: React.js, Django, PostgreSQL, Microservices
+- Built a microservices-based commerce platform with a React storefront
+- Implemented Django services and PostgreSQL models for catalog, orders, and users
+- Structured independent services for scalable product and order domains
+
+Fleet Operations Platform | Full Stack Developer
+Technologies: Node.js, Express.js, MSSQL
+- Integrated multiple OEMs, devices, and operational systems into one secure view
+- Built a hardware-agnostic platform for data management, safety, and fleet visibility
+- Designed MSSQL schemas and Express APIs for assets, events, and compliance records
+
+Online Tender & Bidding Platform | Full Stack Developer
+Technologies: React.js, NestJS, PostgreSQL
+- Developed an online portal where buyers publish tenders and vendors submit bids
+- Implemented NestJS APIs and PostgreSQL models for tender lifecycle and bid rounds
+- Enforced confidential bidding workflows and role-based access for buyers and suppliers
+
+================================================================================
+EDUCATION
+================================================================================
+Master of Computer Applications (MCA)
+Amrita Vishwa Vidyapeetham | CGPA: 8.67
+
+Bachelor of Science in Computer Science
+University Institute of Technology, Ittiva | 73%
+
+================================================================================
+CERTIFICATIONS
+================================================================================
+- IBM Full Stack Software Developer Specialization (IBM, 2023)
+- CCNA Introduction to Networks (Cisco, 2023)
+- CCNA Switching, Routing and Wireless Essentials (Cisco, 2023)
+- Google Cloud Essentials, Baseline Infrastructure, Networking Fundamentals (Google
+  Cloud, 2023)
+- Secure Full Stack MEAN Developer (EC-Council, 2023)
+- Full Stack Software Developer Assessment V2 (Coursera, 2023)
+- Frontend Development using React (Board Infinity, 2022)
+- Data Manipulation in JavaScript (UC Davis, 2022)
+
+================================================================================
+ADDITIONAL HIGHLIGHTS
+================================================================================
+- Full stack architecture design and microservices development
+- Cloud deployment with AWS EC2, Load Balancer, S3, and Docker
+- B2B SaaS, social platforms, and fleet operations delivery
+- Team leadership, mentoring, and AI-assisted software development

@@ -1,0 +1,71 @@
+ANANTHA KRISHNAN S
+ananthakrishnans2000@gmail.com | +91 9447208636 | linkedin.com/in/anantha-krishnan-s-92a477219
+
+[Date]
+
+[Hiring Manager Name]
+[Title]
+[Company Name]
+[Company Address]
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the [Job Title] position at [Company Name].
+With over four years of experience as a Full Stack Developer and Senior Software
+Engineer, I bring a proven record of building scalable enterprise applications,
+healthcare platforms, Web3 solutions, and real-time communication systems that align
+closely with the technical demands of modern product teams.
+
+In my current role as Senior Software Engineer at JuzGoDigital, I lead full stack
+development initiatives using React, NestJS, Node.js, PostgreSQL, and AWS. I drive
+architecture decisions, mentor developers, and deliver microservices-based solutions
+that support high-availability enterprise products. Previously, I contributed to
+healthcare and Web3 application development, strengthening my ability to work across
+complex domains and emerging technologies.
+
+My project experience demonstrates end-to-end ownership across the software
+lifecycle. I have built a social media platform on React, Node.js, and AWS; an
+association community mobile app with React Native; a workplace safety B2B SaaS
+platform using MongoDB and Python analytics; an e-commerce system with Django
+microservices; a fleet operations platform unifying OEMs and operational systems;
+and an online tender and bidding portal with React, NestJS, and PostgreSQL. These
+projects reflect my strengths in full stack development, cloud deployment,
+microservices, and scalable API design.
+
+I hold an MCA from Amrita Vishwa Vidyapeetham (CGPA: 8.67) and 15+ certifications
+including IBM Full Stack Software Developer, Cisco CCNA, Google Cloud Essentials,
+and EC-Council Secure Full Stack MEAN Developer. I am proficient in MERN stack
+development, Python, Django, Kubernetes, Socket.io, Firebase, Docker, CI/CD, and
+AI-assisted development tools that help teams ship quality software faster.
+
+I am particularly drawn to [Company Name] because of [specific reason — company
+mission, product, technology stack, or growth opportunity]. I am confident that my
+technical expertise, leadership experience, and passion for building innovative
+products would make me a valuable contributor to your engineering team.
+
+Thank you for considering my application. I welcome the opportunity to discuss how
+my skills and experience can support [Company Name]'s goals. I am available at your
+earliest convenience and can be reached at ananthakrishnans2000@gmail.com or
++91 9447208636.
+
+Sincerely,
+
+Anantha Krishnan S
+Senior Software Engineer | Full Stack Developer
+Portfolio: https://ananthakrishnan12361.github.io/my-portfolio/ | GitHub: github.com/ananthakrishnan12361
+
+================================================================================
+CUSTOMIZATION GUIDE
+================================================================================
+Replace all bracketed placeholders before sending:
+  [Date]              — Application date
+  [Hiring Manager Name] — Use name from job posting or "Hiring Manager"
+  [Job Title]         — Exact title from job listing (critical for ATS)
+  [Company Name]      — Target company name
+  [specific reason]   — 1-2 sentences about why you want this role
+
+ATS tips:
+  - Mirror keywords from the job description in paragraphs 2 and 3
+  - Save as .docx or .pdf with standard fonts (Arial 11pt or Calibri 11pt)
+  - Keep to one page unless senior leadership role requires more
+  - Use the exact job title from the posting in the first paragraph
