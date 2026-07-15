@@ -67,7 +67,11 @@ export function Hero() {
             className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Button size="lg" asChild>
-              <a href="/resume.pdf" download>
+              <a
+                href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/Anantha_Krishnan_S_CV.html`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Download className="h-4 w-4" />
                 Download Resume
               </a>

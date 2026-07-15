@@ -134,7 +134,9 @@ npm run dev:clean
 ```
 portfolio/
 ├── public/
-│   └── resume.pdf              # Resume for download CTA
+│   ├── Anantha_Krishnan_S_CV.html   # ATS resume (print to PDF)
+│   └── Anantha_Krishnan_S_Cover_Letter.txt
+├── resume/                          # Source resume files
 ├── scripts/
 │   ├── kill-stale.js           # Stops stale Next.js processes
 │   └── clean.js                # Safe .next cache removal
@@ -184,7 +186,7 @@ Socket.io · Firebase · Firebase Realtime DB · FCM Push Notifications · Kafka
 <details>
 <summary><strong>Full Stack</strong></summary>
 
-React · Next.js · Angular · Node.js · Express · NestJS · MongoDB · PostgreSQL · MySQL · GraphQL · Microservices
+React · Next.js · Angular · Node.js · Express · NestJS · Python · Django · MongoDB · PostgreSQL · MySQL · GraphQL · Microservices · Kubernetes
 
 </details>
 
@@ -203,7 +205,9 @@ Before going live, update these items:
 
 - [ ] LinkedIn and GitHub URLs in `src/components/hero.tsx` and `footer.tsx`
 - [ ] Email address across hero, footer, and contact
-- [ ] Replace `public/resume.pdf` with your real resume
+- [ ] Replace placeholder email, phone, and social URLs in `resume/` files and `hero.tsx`
+- [ ] Open `public/Anantha_Krishnan_S_CV.html` in browser → Print → Save as PDF for applications
+- [ ] Customize `resume/Anantha_Krishnan_S_Cover_Letter.txt` per job posting
 - [ ] Connect contact form in `src/components/contact.tsx` (EmailJS or Resend)
 - [ ] Add certification credential IDs and verify URLs in `portfolio.ts`
 - [ ] Deploy to Vercel and set custom domain

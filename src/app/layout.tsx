@@ -14,7 +14,8 @@ const geistSans = Geist({
 });
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://ananthakrishnan.dev";
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  "https://ananthakrishnan12361.github.io/my-portfolio";
 
 export const viewport: Viewport = {
   themeColor: [

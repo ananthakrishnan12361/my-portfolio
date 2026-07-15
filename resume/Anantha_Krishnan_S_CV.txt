@@ -1,0 +1,157 @@
+ANANTHA KRISHNAN S
+Senior Software Engineer | Full Stack Developer | MERN Stack Specialist
+Location: India | Email: anantha.krishnan@email.com | Phone: +91-XXXXXXXXXX
+LinkedIn: linkedin.com/in/ananthakrishnan | GitHub: github.com/ananthakrishnan
+Portfolio: ananthakrishnan.dev
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+Results-driven Senior Software Engineer with 4+ years of experience designing and
+delivering scalable enterprise web applications, healthcare platforms, Web3
+solutions, and real-time communication systems. Expert in MERN stack, Python,
+Django, React ecosystem, NestJS, Kubernetes, microservices, cloud technologies, and
+AI-assisted development. Proven ability to lead architecture decisions, mentor
+developers, and build production-grade full stack products from concept to
+deployment. MCA graduate with 15+ industry certifications across full stack
+development, cloud, and networking.
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+Languages: JavaScript, TypeScript, Python, HTML5, CSS3, SQL
+Frontend: React.js, Next.js, Angular, React Native, Redux, Bootstrap, Material UI,
+          Ant Design, Vite, Flutter
+Backend: Node.js, Express.js, NestJS, Django, REST APIs, GraphQL, Microservices
+Databases: MongoDB, MySQL, PostgreSQL, MSSQL, Redis
+Cloud: Google Cloud Platform, GCP BigQuery, GCP Cloud Storage, AWS EC2, AWS S3,
+       AWS IAM, AWS Amplify, Docker, Kubernetes, CI/CD, Linux
+Realtime & Messaging: Socket.io, Firebase, Firebase Realtime Database, FCM Push
+                      Notifications, Kafka, RabbitMQ, WebRTC, Twilio
+Blockchain: Ethereum, Web3.js, Smart Contract Integration
+AI Tools: GitHub Copilot, ChatGPT, Claude, Cursor
+Tools: Git, GitHub, Bitbucket, Jira, Postman, VS Code
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+SENIOR SOFTWARE ENGINEER
+JuzGoDigital | Jul 2024 – Present
+- Lead full stack development across enterprise platforms using React, NestJS,
+  Node.js, PostgreSQL, AWS, and Docker
+- Drive architecture decisions and technical direction for scalable, maintainable
+  software systems
+- Mentor junior and mid-level developers on coding standards, design patterns, and
+  best practices
+- Design and implement microservices-based solutions for high-availability
+  enterprise applications
+- Adopt AI-assisted development workflows to improve delivery speed and code quality
+
+SOFTWARE ENGINEER
+JuzGoDigital | Sep 2023 – Jun 2024
+- Developed healthcare platform modules including patient workflows and clinical
+  feature sets using Angular and React
+- Integrated Web3 functionality and blockchain-based features into enterprise
+  applications using Web3.js and Node.js
+- Built and maintained enterprise software solutions with MongoDB and RESTful APIs
+- Collaborated with cross-functional teams to deliver features on schedule in agile
+  sprints
+
+SOFTWARE DEVELOPER
+VIPAR | Dec 2021 – Aug 2023
+- Developed and maintained production web applications using React, Node.js, and
+  JavaScript frameworks
+- Collaborated on end-to-end feature design, implementation, and testing across the
+  full software development lifecycle
+- Resolved bugs, improved application performance, and optimized existing codebases
+  for scalability and maintainability
+- Worked with MySQL databases and REST APIs to support data-driven application
+  features
+
+JUNIOR SOFTWARE DEVELOPER
+Softzane Solutions | Aug 2021 – Nov 2021
+- Contributed to full stack web application development using React.js, Node.js,
+  Express.js, MongoDB, and MySQL
+- Implemented responsive user interfaces with HTML, CSS, and JavaScript
+- Participated in agile ceremonies and followed industry best practices for version
+  control and code review
+
+================================================================================
+SELECTED PROJECTS
+================================================================================
+Enterprise Healthcare Web Application | Frontend Developer
+Technologies: Angular, JavaScript, HTML5, CSS3
+- Built responsive healthcare UI modules for appointment booking, patient management,
+  and clinical workflow automation
+- Developed user-facing features that streamlined medical staff operations and
+  improved patient scheduling efficiency
+- Collaborated with backend teams to integrate REST APIs and deliver end-to-end
+  healthcare platform functionality
+
+Web3 Decentralized Finance Platform | Frontend Developer
+Technologies: React.js, Redux, JavaScript, Web3.js, Ethereum
+- Developed responsive trading and portfolio management interfaces for a blockchain-
+  enabled financial application
+- Integrated Web3.js for smart contract interaction and wallet connectivity on the
+  Ethereum network
+- Implemented Redux-based state management for complex real-time transaction and
+  user session data
+
+Talent Recruitment and Workforce Management Platform | Full Stack Developer
+Technologies: React.js, Node.js, Express.js, MySQL
+- Designed and developed full stack features for employer-employee matching and
+  professional profile management
+- Built RESTful APIs and database schemas to support talent search, filtering, and
+  user account management
+- Delivered responsive frontend components integrated with secure backend services
+
+Real-Time Collaborative Presentation Platform | React Frontend Developer
+Technologies: React.js, Redux, Ant Design
+- Built a web-based presentation tool with real-time collaborative editing
+  capabilities for distributed teams
+- Implemented drag-and-drop slide management and live content synchronization using
+  React and Redux
+- Developed intuitive UI components with Ant Design for presentation creation and
+  sharing workflows
+
+AR/VR Real-Time Video Collaboration Platform | Lead Full Stack Developer
+Technologies: React.js, Vite, NestJS, PostgreSQL, Microservices, Twilio, WebRTC
+- Led full stack development of a video communication platform with AR/VR
+  annotation and real-time collaboration features
+- Architected microservices using NestJS and PostgreSQL for scalable backend
+  processing and session management
+- Optimized WebRTC and Twilio integrations for low-latency video calling and
+  multi-user collaboration
+- Resolved performance bottlenecks in real-time communication pipelines across
+  distributed service components
+
+================================================================================
+EDUCATION
+================================================================================
+Master of Computer Applications (MCA)
+Amrita Vishwa Vidyapeetham | CGPA: 8.67
+
+Bachelor of Science in Computer Science
+University Institute of Technology, Ittiva | 73%
+
+================================================================================
+CERTIFICATIONS
+================================================================================
+- IBM Full Stack Software Developer Specialization (IBM, 2023)
+- CCNA Introduction to Networks (Cisco, 2023)
+- CCNA Switching, Routing and Wireless Essentials (Cisco, 2023)
+- Google Cloud Essentials, Baseline Infrastructure, Networking Fundamentals (Google
+  Cloud, 2023)
+- Secure Full Stack MEAN Developer (EC-Council, 2023)
+- Full Stack Software Developer Assessment V2 (Coursera, 2023)
+- Frontend Development using React (Board Infinity, 2022)
+- Data Manipulation in JavaScript (UC Davis, 2022)
+
+================================================================================
+ADDITIONAL HIGHLIGHTS
+================================================================================
+- Healthcare product development and enterprise platform delivery
+- Web3 and blockchain application integration experience
+- Full stack architecture design and microservices development
+- AR/VR and real-time communication system integration
+- Team leadership, mentoring, and AI-assisted software development

@@ -9,10 +9,10 @@ const path = require("path");
 const slugs = [
   "react", "nextdotjs", "angular", "flutter", "javascript", "typescript",
   "html5", "css3", "redux", "bootstrap", "mui", "antdesign", "vite",
-  "nodedotjs", "express", "nestjs", "graphql", "openapiinitiative", "docker",
+  "nodedotjs", "express", "nestjs", "python", "django", "graphql", "openapiinitiative", "docker",
   "mysql", "postgresql", "mongodb", "redis", "googlecloud", "googlecloudstorage",
   "googlebigquery", "googledataflow", "amazonwebservices", "awsamplify",
-  "socketdotio", "firebase", "apachekafka", "rabbitmq", "linux", "githubactions",
+  "socketdotio", "firebase", "apachekafka", "rabbitmq", "linux", "kubernetes", "githubactions",
   "ethereum", "web3dotjs", "openai", "anthropic", "githubcopilot", "twilio",
   "webrtc", "git", "github", "bitbucket", "jira", "postman", "cisco", "coursera",
 ];

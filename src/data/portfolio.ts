@@ -91,6 +91,8 @@ export const skillCategories: { category: string; skills: Skill[] }[] = [
       { name: "Node.js", slug: "nodedotjs", level: "Expert", years: "4+" },
       { name: "Express.js", slug: "express", level: "Expert", years: "4+" },
       { name: "NestJS", slug: "nestjs", level: "Advanced", years: "2+" },
+      { name: "Python", slug: "python", level: "Advanced", years: "2+" },
+      { name: "Django", slug: "django", level: "Advanced", years: "2+" },
       { name: "GraphQL", slug: "graphql", level: "Advanced", years: "2+" },
       { name: "REST APIs", slug: "openapiinitiative", level: "Expert", years: "4+" },
       { name: "Microservices", slug: "docker", level: "Advanced", years: "2+" },
@@ -147,6 +149,7 @@ export const skillCategories: { category: string; skills: Skill[] }[] = [
     category: "DevOps",
     skills: [
       { name: "Docker", slug: "docker", level: "Advanced", years: "2+" },
+      { name: "Kubernetes", slug: "kubernetes", level: "Intermediate", years: "1+" },
       { name: "Linux", slug: "linux", level: "Advanced", years: "3+" },
       { name: "CI/CD", slug: "githubactions", level: "Advanced", years: "2+" },
     ],

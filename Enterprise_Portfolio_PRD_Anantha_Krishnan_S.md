@@ -188,6 +188,8 @@ Backend:
 - Node.js
 - Express.js
 - NestJS
+- Python
+- Django
 - GraphQL
 - REST APIs
 - Microservices
@@ -222,6 +224,7 @@ Messaging:
 
 DevOps:
 - Docker
+- Kubernetes
 - Linux
 - CI/CD
 

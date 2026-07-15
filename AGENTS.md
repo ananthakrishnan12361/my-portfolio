@@ -72,8 +72,14 @@ portfolio/
 ├── scripts/
 │   ├── kill-stale.js                  # Stops stale Next.js processes (Windows)
 │   └── clean.js                       # Removes .next with retries
+├── resume/
+│   ├── Anantha_Krishnan_S_CV.txt           # ATS plain-text resume
+│   ├── Anantha_Krishnan_S_CV.md            # Markdown resume
+│   └── Anantha_Krishnan_S_Cover_Letter.txt # Cover letter template
 ├── public/
-│   └── resume.pdf                     # Placeholder resume for Download CTA
+│   ├── Anantha_Krishnan_S_CV.html          # Print-to-PDF resume
+│   ├── Anantha_Krishnan_S_CV.txt
+│   └── Anantha_Krishnan_S_Cover_Letter.txt
 └── src/
     ├── app/
     │   ├── layout.tsx
@@ -120,6 +126,7 @@ portfolio/
 | Skill icons | Dark-mode fix: near-black Simple Icons get `dark:bg-white/95` pill (Next.js, Angular, Express, Socket.io, Kafka, GitHub Copilot, Claude, WebRTC, etc.) |
 | Dev tooling | Added `scripts/kill-stale.js`, `scripts/clean.js`, `npm run dev:clean`, `preclean` hook |
 | Lighthouse | Removed 5MB `simple-icons` runtime import; lazy sections; deferred 3D; SEO files; a11y fixes — First Load JS ~214 kB (was ~2.3 MB) |
+| Skills | Added Python, Django (Backend) and Kubernetes (DevOps); CV/resume updated |
 
 ## File Reference
 
