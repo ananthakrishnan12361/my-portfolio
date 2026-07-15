@@ -2,8 +2,8 @@
 
 **Senior Software Engineer | Full Stack Developer | MERN Stack Specialist**
 
-India | anantha.krishnan@email.com | +91-XXXXXXXXXX  
-[LinkedIn](https://linkedin.com/in/ananthakrishnan) | [GitHub](https://github.com/ananthakrishnan) | [Portfolio](https://ananthakrishnan.dev)
+Coimbatore, Tamil Nadu, India | ananthakrishnans2000@gmail.com | +91 9447208636  
+[LinkedIn](https://www.linkedin.com/in/anantha-krishnan-s-92a477219/) | [GitHub](https://github.com/ananthakrishnan12361) | [Portfolio](https://ananthakrishnan12361.github.io/my-portfolio/)
 
 ---
 

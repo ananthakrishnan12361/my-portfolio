@@ -1,20 +1,20 @@
 import Link from "next/link";
 import { Github, Linkedin, Mail } from "lucide-react";
-import { navLinks } from "@/data/portfolio";
+import { contactInfo, navLinks } from "@/data/portfolio";
 
 const socialLinks = [
   {
-    href: "https://linkedin.com",
+    href: contactInfo.linkedin,
     label: "LinkedIn",
     icon: Linkedin,
   },
   {
-    href: "https://github.com",
+    href: contactInfo.github,
     label: "GitHub",
     icon: Github,
   },
   {
-    href: "mailto:anantha.krishnan@example.com",
+    href: `mailto:${contactInfo.email}`,
     label: "Email",
     icon: Mail,
   },
@@ -28,7 +28,7 @@ export function Footer() {
       <div className="container-max section-padding !py-12">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <p className="text-xl font-bold gradient-text">Anantha Krishnan S</p>
+            <p className="text-xl font-bold gradient-text">{contactInfo.name}</p>
             <p className="mt-2 text-sm text-muted-foreground max-w-xs">
               Senior Software Engineer building enterprise applications, healthcare
               platforms, and emerging technology solutions.
@@ -70,12 +70,9 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
+        <div className="mt-10 flex flex-col items-center border-t border-border pt-8">
           <p className="text-sm text-muted-foreground">
-            © {year} Anantha Krishnan S. All rights reserved.
-          </p>
-          <p className="text-sm text-muted-foreground">
-            Built with Next.js, TypeScript & Tailwind CSS
+            © {year} {contactInfo.name}. All rights reserved.
           </p>
         </div>
       </div>

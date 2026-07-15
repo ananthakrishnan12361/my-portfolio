@@ -75,7 +75,8 @@ portfolio/
 ├── resume/
 │   ├── Anantha_Krishnan_S_CV.txt           # ATS plain-text resume
 │   ├── Anantha_Krishnan_S_CV.md            # Markdown resume
-│   └── Anantha_Krishnan_S_Cover_Letter.txt # Cover letter template
+│   ├── Anantha_Krishnan_S_Cover_Letter.txt # Cover letter template
+│   └── RESUME_AI_SOURCE.md                 # Full source for AI resume/CV generation
 ├── public/
 │   ├── Anantha_Krishnan_S_CV.html          # Print-to-PDF resume
 │   ├── Anantha_Krishnan_S_CV.txt
@@ -215,13 +216,14 @@ Minimal placeholder PDF for the Download Resume button. Replace with the real re
 
 Before production deploy, update:
 
-- [ ] LinkedIn / GitHub URLs in `hero.tsx` and `footer.tsx`
-- [ ] Email in `hero.tsx`, `footer.tsx`, and contact flow
-- [ ] `public/resume.pdf` with real resume
+- [x] LinkedIn / GitHub URLs in `hero.tsx` and `footer.tsx` (via `contactInfo` in `portfolio.ts`)
+- [x] Email and phone in `contactInfo` and resume files
 - [ ] Contact form in `contact.tsx` (EmailJS or Resend API)
 - [ ] Certification credential IDs and verify URLs in `portfolio.ts`
 - [ ] Re-enable hero availability badge in `hero.tsx` when actively seeking roles
 - [ ] Optional: project screenshots and architecture images
+
+**Resume AI source:** `resume/RESUME_AI_SOURCE.md` — feed this file to any AI model to regenerate CV/resume with all skills and projects.
 
 ## PRD Section Mapping
 

@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
-import { stats } from "@/data/portfolio";
+import { stats, contactInfo } from "@/data/portfolio";
 import { Button } from "@/components/ui/button";
 
 const HeroScene = dynamic(
@@ -13,9 +13,9 @@ const HeroScene = dynamic(
 );
 
 const socialLinks = [
-  { href: "https://linkedin.com", label: "LinkedIn", icon: Linkedin },
-  { href: "https://github.com", label: "GitHub", icon: Github },
-  { href: "mailto:anantha.krishnan@example.com", label: "Email", icon: Mail },
+  { href: contactInfo.linkedin, label: "LinkedIn", icon: Linkedin },
+  { href: contactInfo.github, label: "GitHub", icon: Github },
+  { href: `mailto:${contactInfo.email}`, label: "Email", icon: Mail },
 ];
 
 export function Hero() {

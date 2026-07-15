@@ -49,6 +49,17 @@ export interface Education {
   score?: string;
 }
 
+export const contactInfo = {
+  name: "Anantha Krishnan S",
+  phone: "+91 9447208636",
+  phoneHref: "tel:+919447208636",
+  email: "ananthakrishnans2000@gmail.com",
+  linkedin: "https://www.linkedin.com/in/anantha-krishnan-s-92a477219/",
+  github: "https://github.com/ananthakrishnan12361",
+  location: "Coimbatore, Tamil Nadu, India",
+  portfolio: "https://ananthakrishnan12361.github.io/my-portfolio/",
+};
+
 export const stats = [
   { label: "Years Experience", value: "4+" },
   { label: "Major Projects", value: "11+" },
