@@ -51,7 +51,7 @@ export interface Education {
 
 export const stats = [
   { label: "Years Experience", value: "4+" },
-  { label: "Major Projects", value: "6+" },
+  { label: "Major Projects", value: "11+" },
   { label: "Certifications", value: "15+" },
   { label: "Education", value: "MCA" },
 ];
@@ -252,8 +252,113 @@ export const experiences: Experience[] = [
 
 export const projects: Project[] = [
   {
+    id: "healthcare-web-app",
+    name: "Enterprise Healthcare Web Application",
+    shortName: "Healthcare Platform",
+    role: "Frontend Developer",
+    description:
+      "Healthcare platform enabling appointment booking, patient management, and streamlined clinical workflows for medical professionals.",
+    tech: ["Angular", "JavaScript", "HTML", "CSS"],
+    highlights: [
+      "Appointment Booking",
+      "Patient Management",
+      "Healthcare Workflow",
+    ],
+    contributions: [
+      "Built responsive healthcare UI modules for clinical workflows",
+      "Integrated frontend features with backend APIs for end-to-end delivery",
+    ],
+    gradient: "from-emerald-500 to-teal-600",
+  },
+  {
+    id: "web3-defi-platform",
+    name: "Web3 Decentralized Finance Platform",
+    shortName: "Web3 DeFi Platform",
+    role: "Frontend Developer",
+    description:
+      "Web3-enabled capital management platform with smart contract integration and responsive trading interfaces.",
+    tech: ["React.js", "Redux", "JavaScript", "Web3.js", "Ethereum"],
+    highlights: ["Web3 Integration", "Smart Contracts", "Redux State"],
+    contributions: [
+      "Responsive UI development",
+      "Web3 Integration",
+      "Smart Contract Interaction",
+      "Redux State Management",
+    ],
+    gradient: "from-violet-500 to-fuchsia-600",
+  },
+  {
+    id: "talent-management-platform",
+    name: "Talent Recruitment Platform",
+    shortName: "Talent Platform",
+    role: "Full Stack Developer",
+    description:
+      "Talent management platform connecting employers with skilled professionals through intelligent matching and profile management.",
+    tech: ["React.js", "Node.js", "Express.js", "MySQL"],
+    highlights: ["Full Stack", "Talent Matching", "Profile Management"],
+    contributions: [
+      "Designed matching and profile management features across full stack",
+      "Built REST APIs and MySQL schemas for search and accounts",
+    ],
+    gradient: "from-sky-500 to-blue-600",
+  },
+  {
+    id: "collaborative-presentation",
+    name: "Real-Time Collaborative Presentation Platform",
+    shortName: "Presentation Platform",
+    role: "React Frontend Developer",
+    description:
+      "Collaborative presentation tool with real-time editing, drag-and-drop UI, and presentation management capabilities.",
+    tech: ["React.js", "Redux", "Ant Design"],
+    highlights: [
+      "Real-time Editing",
+      "Presentation Management",
+      "Drag-and-drop UI",
+    ],
+    contributions: [
+      "Built real-time collaborative editing and slide management",
+      "Developed presentation creation and sharing workflows",
+    ],
+    gradient: "from-orange-500 to-amber-600",
+  },
+  {
+    id: "arvr-collaboration",
+    name: "AR/VR Real-Time Video Collaboration Platform",
+    shortName: "AR/VR Collaboration",
+    role: "Lead Full Stack Developer",
+    description:
+      "Next-generation communication platform with video calling, AR/VR annotations, and real-time collaboration for distributed teams.",
+    tech: [
+      "React.js",
+      "Vite",
+      "NestJS",
+      "PostgreSQL",
+      "Microservices",
+      "Twilio",
+      "WebRTC",
+      "AR/VR",
+    ],
+    highlights: [
+      "Video Calling",
+      "Annotations",
+      "Collaboration",
+      "Real-time Communication",
+    ],
+    challenges: [
+      "Low-latency WebRTC optimization",
+      "Microservices orchestration",
+      "AR/VR integration complexity",
+    ],
+    contributions: [
+      "Led full stack delivery of video and annotation collaboration features",
+      "Architected NestJS microservices and optimized WebRTC performance",
+    ],
+    gradient: "from-pink-500 to-rose-600",
+  },
+  {
     id: "social-media-platform",
     name: "Social Media Platform",
+    shortName: "Social Media",
     role: "Full Stack Developer",
     description:
       "Scalable social networking platform supporting user profiles, feeds, messaging, and media sharing. Built for high availability on AWS with containerized services, load-balanced APIs, and cloud object storage for user-generated content.",
@@ -288,6 +393,7 @@ export const projects: Project[] = [
   {
     id: "association-community-app",
     name: "Association Community App",
+    shortName: "Association App",
     role: "Full Stack / Mobile Developer",
     description:
       "Mobile-first social application for associations and member communities. Members can publish posts, share achievements, and track association programs and activities through a dedicated member experience.",
@@ -365,6 +471,7 @@ export const projects: Project[] = [
   {
     id: "fleet-operations-platform",
     name: "Fleet Operations Platform",
+    shortName: "Fleet Operations",
     role: "Full Stack Developer",
     description:
       "Enterprise fleet operations solution that integrates multiple OEMs, hardware devices, and operational systems into one secure, centralized view. Hardware-agnostic design enables seamless coverage across mixed fleets—unifying data management, proactive safety and compliance, and end-to-end fleet visibility so teams can act with confidence.",

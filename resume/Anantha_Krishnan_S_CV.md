@@ -62,6 +62,36 @@ Results-driven Senior Software Engineer with **4+ years** of experience building
 
 ## Selected Projects
 
+### Enterprise Healthcare Web Application
+*Frontend Developer | Angular, JavaScript, HTML5, CSS3*
+
+- Built appointment booking, patient management, and clinical workflow UI modules
+- Integrated REST APIs for end-to-end healthcare platform delivery
+
+### Web3 Decentralized Finance Platform
+*Frontend Developer | React.js, Redux, Web3.js, Ethereum*
+
+- Built responsive DeFi interfaces with smart contract and wallet integration
+- Implemented Redux state management for real-time blockchain transaction data
+
+### Talent Recruitment Platform
+*Full Stack Developer | React.js, Node.js, Express.js, MySQL*
+
+- Designed talent matching and profile management features across full stack
+- Built REST APIs and MySQL schemas for search and accounts
+
+### Real-Time Collaborative Presentation Platform
+*React Frontend Developer | React.js, Redux, Ant Design*
+
+- Built real-time collaborative editing with drag-and-drop slide management
+- Delivered presentation creation and sharing workflows for distributed teams
+
+### AR/VR Real-Time Video Collaboration Platform
+*Lead Full Stack Developer | React.js, NestJS, PostgreSQL, WebRTC, Twilio, Microservices*
+
+- Led development of video platform with AR/VR annotations and collaboration
+- Architected NestJS microservices and optimized WebRTC for low-latency calling
+
 ### Social Media Platform
 *Full Stack Developer | React.js, Node.js, Express.js, MongoDB, AWS EC2, Load Balancer, S3, Docker*
 

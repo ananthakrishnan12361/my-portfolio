@@ -22,7 +22,7 @@ export function Projects() {
       <div className="container-max">
         <SectionHeading
           title="Featured Projects"
-          subtitle="Enterprise platforms across social, SaaS, commerce, fleet operations, and bidding"
+          subtitle="Enterprise platforms across healthcare, Web3, social, SaaS, commerce, fleet operations, and bidding"
         />
 
         <FadeIn>

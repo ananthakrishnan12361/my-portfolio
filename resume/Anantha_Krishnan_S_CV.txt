@@ -79,6 +79,31 @@ Softzane Solutions | Aug 2021 – Nov 2021
 ================================================================================
 SELECTED PROJECTS
 ================================================================================
+Enterprise Healthcare Web Application | Frontend Developer
+Technologies: Angular, JavaScript, HTML5, CSS3
+- Built responsive healthcare UI modules for appointment booking and patient management
+- Delivered clinical workflow features integrated with REST APIs
+
+Web3 Decentralized Finance Platform | Frontend Developer
+Technologies: React.js, Redux, JavaScript, Web3.js, Ethereum
+- Developed trading and portfolio interfaces with smart contract integration
+- Implemented Web3 wallet connectivity and Redux state management
+
+Talent Recruitment Platform | Full Stack Developer
+Technologies: React.js, Node.js, Express.js, MySQL
+- Built employer-talent matching and professional profile management features
+- Designed REST APIs and MySQL schemas for search and accounts
+
+Real-Time Collaborative Presentation Platform | React Frontend Developer
+Technologies: React.js, Redux, Ant Design
+- Built real-time collaborative editing with drag-and-drop slide management
+- Delivered presentation creation and sharing workflows for distributed teams
+
+AR/VR Real-Time Video Collaboration Platform | Lead Full Stack Developer
+Technologies: React.js, Vite, NestJS, PostgreSQL, Microservices, Twilio, WebRTC
+- Led development of video calling with AR/VR annotations and collaboration
+- Architected NestJS microservices and optimized WebRTC for low latency
+
 Social Media Platform | Full Stack Developer
 Technologies: React.js, Node.js, Express.js, MongoDB, AWS EC2, Load Balancer, S3, Docker
 - Built scalable social networking features for profiles, feeds, and media sharing
