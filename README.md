@@ -218,27 +218,31 @@ Before going live, update these items:
 
 ### GitHub Pages (configured)
 
-This repo deploys automatically to GitHub Pages via GitHub Actions.
-
 | Item | Value |
 |------|-------|
 | **Live URL** | https://ananthakrishnan12361.github.io/my-portfolio/ |
-| **Workflow** | `.github/workflows/deploy-github-pages.yml` |
-| **Trigger** | Push to `master` |
+| **Branch** | `gh-pages` (static site) |
+| **Workflow** | `.github/workflows/deploy-github-pages.yml` (rebuilds on push to `master`) |
 
-One-time setup in GitHub (if Pages is not enabled yet):
+#### One-time setup (required to fix 404)
 
-1. Open **Settings → Pages**
-2. Under **Build and deployment → Source**, choose **GitHub Actions**
+1. Open: https://github.com/ananthakrishnan12361/my-portfolio/settings/pages  
+2. Under **Build and deployment**:
+   - **Source:** Deploy from a branch  
+   - **Branch:** `gh-pages`  
+   - **Folder:** `/ (root)`  
+3. Click **Save**  
+4. Wait 1–2 minutes, then open: https://ananthakrishnan12361.github.io/my-portfolio/
+
+> Tip: Without this setting, GitHub shows “There isn't a GitHub Pages site here.”
 
 Local production build for Pages:
 
-```bash
-# Windows PowerShell
+```powershell
 $env:GITHUB_PAGES="true"; npm run build
 ```
 
-Static files are written to the `out/` folder.
+Static files are written to the `out/` folder (and published to `gh-pages`).
 
 ### Vercel (optional alternative)
 
