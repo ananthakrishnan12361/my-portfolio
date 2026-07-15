@@ -62,35 +62,41 @@ Results-driven Senior Software Engineer with **4+ years** of experience building
 
 ## Selected Projects
 
-### Enterprise Healthcare Web Application
-*Frontend Developer | Angular, JavaScript, HTML5, CSS3*
+### Social Media Platform
+*Full Stack Developer | React.js, Node.js, Express.js, MongoDB, AWS EC2, Load Balancer, S3, Docker*
 
-- Developed appointment booking, patient management, and clinical workflow modules
-- Built responsive healthcare UI integrated with REST APIs for end-to-end platform delivery
+- Built scalable social features for profiles, feeds, and media sharing
+- Deployed Dockerized services on AWS with load balancing and S3 media storage
 
-### Web3 Decentralized Finance Platform
-*Frontend Developer | React.js, Redux, Web3.js, Ethereum*
+### Association Community App
+*Full Stack / Mobile Developer | React Native, Node.js, Express.js, MySQL*
 
-- Built responsive DeFi interfaces with smart contract integration and wallet connectivity
-- Implemented Redux state management for real-time blockchain transaction data
+- Enabled association posts, achievement sharing, and program tracking for members
+- Built React Native app with Express APIs and MySQL data models
 
-### Talent Recruitment and Workforce Management Platform
-*Full Stack Developer | React.js, Node.js, Express.js, MySQL*
+### Workplace Safety SaaS Platform
+*Backend / Full Stack Developer | Node.js, Express.js, MongoDB, Python*
 
-- Designed employer-talent matching features and professional profile management system
-- Built RESTful APIs and database schemas supporting search and account management
+- Delivered B2B SaaS that automates workplace safety data collection and analysis
+- Used Python pipelines with MongoDB and Express APIs for compliance insights
 
-### Real-Time Collaborative Presentation Platform
-*React Frontend Developer | React.js, Redux, Ant Design*
+### E-Commerce Microservices Platform
+*Full Stack Developer | React.js, Django, PostgreSQL, Microservices*
 
-- Built real-time collaborative editing with drag-and-drop slide management
-- Delivered presentation creation and sharing workflows for distributed teams
+- Built microservices commerce architecture with a React storefront
+- Implemented Django services and PostgreSQL models for catalog and orders
 
-### AR/VR Real-Time Video Collaboration Platform
-*Lead Full Stack Developer | React.js, NestJS, PostgreSQL, WebRTC, Twilio, Microservices*
+### Fleet Operations Platform
+*Full Stack Developer | Node.js, Express.js, MSSQL*
 
-- Led development of video communication platform with AR/VR annotations and collaboration
-- Architected NestJS microservices and optimized WebRTC for low-latency video calling
+- Integrated OEMs, devices, and ops systems into one secure centralized view
+- Delivered hardware-agnostic platform for safety, compliance, and fleet visibility
+
+### Online Tender & Bidding Platform
+*Full Stack Developer | React.js, NestJS, PostgreSQL*
+
+- Built tender publication and competitive bidding workflows for buyers and suppliers
+- Implemented NestJS APIs and PostgreSQL models for confidential bid lifecycles
 
 ---
 

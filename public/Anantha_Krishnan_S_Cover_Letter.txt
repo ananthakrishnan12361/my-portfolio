@@ -24,13 +24,13 @@ healthcare and Web3 application development, strengthening my ability to work ac
 complex domains and emerging technologies.
 
 My project experience demonstrates end-to-end ownership across the software
-lifecycle. I have built an enterprise healthcare web application with appointment
-booking and patient management workflows, a Web3 decentralized finance platform with
-smart contract integration, a talent recruitment and workforce management platform
-with full stack features, a real-time collaborative presentation tool, and an AR/VR
-video collaboration platform using WebRTC and microservices architecture. These
-projects reflect my strengths in React, Node.js, real-time systems, cloud
-technologies, and performance optimization.
+lifecycle. I have built a social media platform on React, Node.js, and AWS; an
+association community mobile app with React Native; a workplace safety B2B SaaS
+platform using MongoDB and Python analytics; an e-commerce system with Django
+microservices; a fleet operations platform unifying OEMs and operational systems;
+and an online tender and bidding portal with React, NestJS, and PostgreSQL. These
+projects reflect my strengths in full stack development, cloud deployment,
+microservices, and scalable API design.
 
 I hold an MCA from Amrita Vishwa Vidyapeetham (CGPA: 8.67) and 15+ certifications
 including IBM Full Stack Software Developer, Cisco CCNA, Google Cloud Essentials,

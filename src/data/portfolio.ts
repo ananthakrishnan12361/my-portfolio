@@ -18,6 +18,7 @@ export interface Experience {
 export interface Project {
   id: string;
   name: string;
+  shortName?: string;
   role: string;
   description: string;
   tech: string[];
@@ -50,7 +51,7 @@ export interface Education {
 
 export const stats = [
   { label: "Years Experience", value: "4+" },
-  { label: "Major Projects", value: "5+" },
+  { label: "Major Projects", value: "6+" },
   { label: "Certifications", value: "15+" },
   { label: "Education", value: "MCA" },
 ];
@@ -251,87 +252,166 @@ export const experiences: Experience[] = [
 
 export const projects: Project[] = [
   {
-    id: "jgdhealth",
-    name: "JGDHealth",
-    role: "Frontend Developer",
+    id: "social-media-platform",
+    name: "Social Media Platform",
+    role: "Full Stack Developer",
     description:
-      "Healthcare platform enabling appointment booking, patient management, and streamlined clinical workflows for medical professionals.",
-    tech: ["Angular", "JavaScript", "HTML", "CSS"],
-    highlights: [
-      "Appointment Booking",
-      "Patient Management",
-      "Healthcare Workflow",
+      "Scalable social networking platform supporting user profiles, feeds, messaging, and media sharing. Built for high availability on AWS with containerized services, load-balanced APIs, and cloud object storage for user-generated content.",
+    tech: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "AWS EC2",
+      "AWS Load Balancer",
+      "AWS S3",
+      "Docker",
     ],
-    gradient: "from-emerald-500 to-teal-600",
+    highlights: [
+      "Real-time social feeds and engagement",
+      "Media uploads with S3 storage",
+      "EC2 + Load Balancer scaling",
+      "Dockerized deployment pipeline",
+    ],
+    contributions: [
+      "Developed React frontend for posts, profiles, and interaction flows",
+      "Built Express REST APIs and MongoDB data models for users and content",
+      "Configured AWS EC2, load balancing, and S3 for reliable media delivery",
+      "Containerized services with Docker for consistent environments",
+    ],
+    challenges: [
+      "Handling concurrent traffic across load-balanced instances",
+      "Optimizing media upload and delivery performance",
+    ],
+    gradient: "from-blue-500 to-indigo-600",
   },
   {
-    id: "fu-capital",
-    name: "FU-Capital",
-    role: "Frontend Developer",
+    id: "association-community-app",
+    name: "Association Community App",
+    role: "Full Stack / Mobile Developer",
     description:
-      "Web3-enabled capital management platform with smart contract integration and responsive trading interfaces.",
-    tech: ["React.js", "Redux", "JavaScript", "Web3.js", "Ethereum"],
-    highlights: ["Web3 Integration", "Smart Contracts", "Redux State"],
+      "Mobile-first social application for associations and member communities. Members can publish posts, share achievements, and track association programs and activities through a dedicated member experience.",
+    tech: ["React Native", "Node.js", "Express.js", "MySQL"],
+    highlights: [
+      "Association posts and announcements",
+      "Achievement and milestone sharing",
+      "Program tracking for members",
+      "Cross-platform mobile experience",
+    ],
     contributions: [
-      "Responsive UI development",
-      "Web3 Integration",
-      "Smart Contract Interaction",
-      "Redux State Management",
+      "Built React Native screens for feeds, programs, and member profiles",
+      "Implemented Express APIs for posts, achievements, and program data",
+      "Designed MySQL schemas for members, associations, and activity tracking",
+      "Enabled organizers to publish updates and members to follow program progress",
+    ],
+    challenges: [
+      "Structuring association hierarchies and member access in MySQL",
+      "Delivering a smooth native experience across devices",
+    ],
+    gradient: "from-cyan-500 to-teal-600",
+  },
+  {
+    id: "workplace-safety-saas",
+    name: "Workplace Safety SaaS Platform",
+    shortName: "Workplace Safety SaaS",
+    role: "Backend / Full Stack Developer",
+    description:
+      "B2B SaaS platform that automates workplace safety data collection and analysis. Helps organizations digitize inspections, incidents, and compliance workflows while turning raw operational data into actionable insights.",
+    tech: ["Node.js", "Express.js", "MongoDB", "Python"],
+    highlights: [
+      "Automated safety data collection",
+      "Analytics and reporting pipelines",
+      "B2B multi-tenant SaaS foundation",
+      "Python-powered data processing",
+    ],
+    contributions: [
+      "Developed Express APIs for safety records, inspections, and reporting",
+      "Modeled flexible MongoDB documents for evolving compliance datasets",
+      "Used Python scripts and services for batch analysis and insight generation",
+      "Supported B2B SaaS flows for organizations onboarding safety teams",
+    ],
+    challenges: [
+      "Standardizing diverse safety data into analyzable structures",
+      "Balancing real-time capture with reliable batch analytics",
+    ],
+    gradient: "from-amber-500 to-orange-600",
+  },
+  {
+    id: "ecommerce-microservices",
+    name: "E-Commerce Microservices Platform",
+    shortName: "E-Commerce Platform",
+    role: "Full Stack Developer",
+    description:
+      "Modern e-commerce platform delivered with a microservices architecture. Separates catalog, orders, payments, and user services for independent scaling while providing a responsive React storefront backed by Django and PostgreSQL.",
+    tech: ["React.js", "Django", "PostgreSQL", "Microservices"],
+    highlights: [
+      "Microservices-based commerce architecture",
+      "Product catalog and order workflows",
+      "PostgreSQL-backed service data stores",
+      "Scalable React storefront",
+    ],
+    contributions: [
+      "Built React storefront experiences for browsing, cart, and checkout flows",
+      "Implemented Django services for core commerce domains",
+      "Designed PostgreSQL models for products, orders, and customer data",
+      "Structured services for independent deployment and growth",
+    ],
+    challenges: [
+      "Coordinating data consistency across microservices",
+      "Designing clean API boundaries for commerce domains",
     ],
     gradient: "from-violet-500 to-purple-600",
   },
   {
-    id: "talentely",
-    name: "Talentely",
+    id: "fleet-operations-platform",
+    name: "Fleet Operations Platform",
     role: "Full Stack Developer",
     description:
-      "Talent management platform connecting employers with skilled professionals through intelligent matching and profile management.",
-    tech: ["React.js", "Node.js", "Express.js", "MySQL"],
-    highlights: ["Full Stack", "Talent Matching", "Profile Management"],
-    gradient: "from-blue-500 to-cyan-600",
-  },
-  {
-    id: "google-slides",
-    name: "Google Slides-like Application",
-    role: "React Frontend Developer",
-    description:
-      "Collaborative presentation tool with real-time editing, drag-and-drop UI, and presentation management capabilities.",
-    tech: ["React.js", "Redux", "Ant Design"],
+      "Enterprise fleet operations solution that integrates multiple OEMs, hardware devices, and operational systems into one secure, centralized view. Hardware-agnostic design enables seamless coverage across mixed fleets—unifying data management, proactive safety and compliance, and end-to-end fleet visibility so teams can act with confidence.",
+    tech: ["Node.js", "Express.js", "MSSQL"],
     highlights: [
-      "Real-time Editing",
-      "Presentation Management",
-      "Drag-and-drop UI",
+      "Multi-OEM and multi-system integration",
+      "Hardware-agnostic fleet coverage",
+      "Centralized operational intelligence",
+      "Safety and compliance visibility",
     ],
-    gradient: "from-orange-500 to-amber-600",
-  },
-  {
-    id: "arvr-calling",
-    name: "AR/VR Calling Platform",
-    role: "Lead Full Stack Developer",
-    description:
-      "Next-generation communication platform with video calling, AR/VR annotations, and real-time collaboration for distributed teams.",
-    tech: [
-      "React.js",
-      "Vite",
-      "NestJS",
-      "PostgreSQL",
-      "Microservices",
-      "Twilio",
-      "WebRTC",
-      "AR/VR",
-    ],
-    highlights: [
-      "Video Calling",
-      "Annotations",
-      "Collaboration",
-      "Real-time Communication",
+    contributions: [
+      "Built Express APIs to unify data from OEMs, devices, and ops systems",
+      "Designed MSSQL schemas for fleets, assets, events, and compliance records",
+      "Created a centralized operational view beyond basic dashboards",
+      "Enabled proactive monitoring for safety, compliance, and fleet readiness",
     ],
     challenges: [
-      "Low-latency WebRTC optimization",
-      "Microservices orchestration",
-      "AR/VR integration complexity",
+      "Normalizing data across mixed OEM and device ecosystems",
+      "Delivering a secure, centralized view for operational decision-making",
     ],
-    gradient: "from-pink-500 to-rose-600",
+    gradient: "from-slate-500 to-zinc-700",
+  },
+  {
+    id: "tender-bidding-platform",
+    name: "Online Tender & Bidding Platform",
+    shortName: "Tender & Bidding",
+    role: "Full Stack Developer",
+    description:
+      "Online marketplace where organizations publish tenders and suppliers submit competitive bids. Supports tender lifecycle management, secure bidding workflows, and transparent evaluation so buyers and vendors can collaborate efficiently.",
+    tech: ["React.js", "NestJS", "PostgreSQL"],
+    highlights: [
+      "Tender creation and publication",
+      "Supplier bidding workflows",
+      "Secure bid lifecycle management",
+      "Transparent evaluation process",
+    ],
+    contributions: [
+      "Developed React interfaces for buyers, vendors, and bid submission flows",
+      "Implemented NestJS APIs for tenders, bids, and user roles",
+      "Designed PostgreSQL schemas for tenders, bid rounds, and evaluations",
+      "Enforced access control so bids remain confidential until review windows",
+    ],
+    challenges: [
+      "Ensuring fair bidding rules and bid confidentiality",
+      "Modeling complex tender and evaluation states in PostgreSQL",
+    ],
+    gradient: "from-rose-500 to-pink-600",
   },
 ];
 

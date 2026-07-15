@@ -79,51 +79,41 @@ Softzane Solutions | Aug 2021 – Nov 2021
 ================================================================================
 SELECTED PROJECTS
 ================================================================================
-Enterprise Healthcare Web Application | Frontend Developer
-Technologies: Angular, JavaScript, HTML5, CSS3
-- Built responsive healthcare UI modules for appointment booking, patient management,
-  and clinical workflow automation
-- Developed user-facing features that streamlined medical staff operations and
-  improved patient scheduling efficiency
-- Collaborated with backend teams to integrate REST APIs and deliver end-to-end
-  healthcare platform functionality
+Social Media Platform | Full Stack Developer
+Technologies: React.js, Node.js, Express.js, MongoDB, AWS EC2, Load Balancer, S3, Docker
+- Built scalable social networking features for profiles, feeds, and media sharing
+- Deployed containerized services on AWS EC2 with load balancing and S3 media storage
+- Developed Express REST APIs and MongoDB models for users, posts, and engagement data
 
-Web3 Decentralized Finance Platform | Frontend Developer
-Technologies: React.js, Redux, JavaScript, Web3.js, Ethereum
-- Developed responsive trading and portfolio management interfaces for a blockchain-
-  enabled financial application
-- Integrated Web3.js for smart contract interaction and wallet connectivity on the
-  Ethereum network
-- Implemented Redux-based state management for complex real-time transaction and
-  user session data
+Association Community App | Full Stack / Mobile Developer
+Technologies: React Native, Node.js, Express.js, MySQL
+- Created a mobile app for associations to publish posts and share member achievements
+- Enabled tracking of association programs and activities for organizers and members
+- Implemented Express APIs and MySQL schemas for members, posts, and program progress
 
-Talent Recruitment and Workforce Management Platform | Full Stack Developer
-Technologies: React.js, Node.js, Express.js, MySQL
-- Designed and developed full stack features for employer-employee matching and
-  professional profile management
-- Built RESTful APIs and database schemas to support talent search, filtering, and
-  user account management
-- Delivered responsive frontend components integrated with secure backend services
+Workplace Safety SaaS Platform | Backend / Full Stack Developer
+Technologies: Node.js, Express.js, MongoDB, Python
+- Delivered a B2B SaaS platform that automates workplace safety data collection
+- Used Python for analysis pipelines supporting compliance reporting and insights
+- Designed MongoDB collections and Express APIs for inspections and safety workflows
 
-Real-Time Collaborative Presentation Platform | React Frontend Developer
-Technologies: React.js, Redux, Ant Design
-- Built a web-based presentation tool with real-time collaborative editing
-  capabilities for distributed teams
-- Implemented drag-and-drop slide management and live content synchronization using
-  React and Redux
-- Developed intuitive UI components with Ant Design for presentation creation and
-  sharing workflows
+E-Commerce Microservices Platform | Full Stack Developer
+Technologies: React.js, Django, PostgreSQL, Microservices
+- Built a microservices-based commerce platform with a React storefront
+- Implemented Django services and PostgreSQL models for catalog, orders, and users
+- Structured independent services for scalable product and order domains
 
-AR/VR Real-Time Video Collaboration Platform | Lead Full Stack Developer
-Technologies: React.js, Vite, NestJS, PostgreSQL, Microservices, Twilio, WebRTC
-- Led full stack development of a video communication platform with AR/VR
-  annotation and real-time collaboration features
-- Architected microservices using NestJS and PostgreSQL for scalable backend
-  processing and session management
-- Optimized WebRTC and Twilio integrations for low-latency video calling and
-  multi-user collaboration
-- Resolved performance bottlenecks in real-time communication pipelines across
-  distributed service components
+Fleet Operations Platform | Full Stack Developer
+Technologies: Node.js, Express.js, MSSQL
+- Integrated multiple OEMs, devices, and operational systems into one secure view
+- Built a hardware-agnostic platform for data management, safety, and fleet visibility
+- Designed MSSQL schemas and Express APIs for assets, events, and compliance records
+
+Online Tender & Bidding Platform | Full Stack Developer
+Technologies: React.js, NestJS, PostgreSQL
+- Developed an online portal where buyers publish tenders and vendors submit bids
+- Implemented NestJS APIs and PostgreSQL models for tender lifecycle and bid rounds
+- Enforced confidential bidding workflows and role-based access for buyers and suppliers
 
 ================================================================================
 EDUCATION
@@ -150,8 +140,7 @@ CERTIFICATIONS
 ================================================================================
 ADDITIONAL HIGHLIGHTS
 ================================================================================
-- Healthcare product development and enterprise platform delivery
-- Web3 and blockchain application integration experience
 - Full stack architecture design and microservices development
-- AR/VR and real-time communication system integration
+- Cloud deployment with AWS EC2, Load Balancer, S3, and Docker
+- B2B SaaS, social platforms, and fleet operations delivery
 - Team leadership, mentoring, and AI-assisted software development

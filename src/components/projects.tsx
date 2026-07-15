@@ -22,7 +22,7 @@ export function Projects() {
       <div className="container-max">
         <SectionHeading
           title="Featured Projects"
-          subtitle="Enterprise solutions across healthcare, Web3, collaboration, and AR/VR"
+          subtitle="Enterprise platforms across social, SaaS, commerce, fleet operations, and bidding"
         />
 
         <FadeIn>
@@ -38,7 +38,7 @@ export function Projects() {
                     : "glass text-muted-foreground hover:text-foreground"
                 )}
               >
-                {p.name}
+                {p.shortName ?? p.name}
               </button>
             ))}
           </div>

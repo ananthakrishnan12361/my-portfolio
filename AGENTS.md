@@ -127,6 +127,7 @@ portfolio/
 | Dev tooling | Added `scripts/kill-stale.js`, `scripts/clean.js`, `npm run dev:clean`, `preclean` hook |
 | Lighthouse | Removed 5MB `simple-icons` runtime import; lazy sections; deferred 3D; SEO files; a11y fixes — First Load JS ~214 kB (was ~2.3 MB) |
 | Skills | Added Python, Django (Backend) and Kubernetes (DevOps); CV/resume updated |
+| Projects | Replaced company-titled projects with generic elaborated projects (social, association app, workplace safety SaaS, e-commerce, fleet ops, tender bidding) |
 
 ## File Reference
 
